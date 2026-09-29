@@ -76,6 +76,6 @@ docking-station/
 | M3: Contacts | Station, floor pad and rod mechanism printed and assembled; contact detection working |
 | M4: Integration and demo | Robot docks to the station regularly |
 
-## Simply
+## Simplified
 
 3D-printed station has an MCU that drives three LED channels (left, right, near) through MOSFETs, and a floor pad with two spring-loaded metal rails. On the robot, a second MCU reads three IR receivers. Seeing only left or only right means turn toward the other side, and seeing both means it's on the centre line. When the near signal appears, the robot slows down and lowers its contact rods. It creeps forward until the rods touch the rails, detects the contact and stops.
