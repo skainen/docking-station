@@ -61,8 +61,8 @@ The robot's batteries are removed and charged by hand. Availability depends on s
 ir-docking/
 ├── README.md
 ├── docs/        # proposals, architecture, parts lists, test logs
-├── dock-fw/     # dock (beacon) firmware, STM32G031
-├── robot-fw/    # receiver + docking controller firmware, STM32G071
+├── dock-firmware/     # dock (beacon) firmware, STM32G031
+├── robot-firmware/    # receiver + docking controller firmware, STM32G071
 ├── hardware/    # schematics, CAD for station, pad and rod mechanism
 └── tools/       # IR logger, test scripts
 ```
