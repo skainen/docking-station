@@ -42,20 +42,6 @@ The robot's batteries are removed and charged by hand. Availability depends on s
   - Return springs lift the rods if the servo loses power.
 - The robot detects a successful dock by sensing the contact voltage.
 
-### Docking sequence
-
-```mermaid
-stateDiagram-v2
-    [*] --> Search
-    Search --> Approach: L or R code seen
-    Approach --> Align: centre line (L + R)
-    Align --> FinalApproach: Near code seen
-    FinalApproach --> FinalApproach: deploy rods, creep forward
-    FinalApproach --> Docked: contact detected
-    Docked --> Undock: command
-    Undock --> [*]: reverse off pad, retract rods
-```
-
 ## Hardware
 
 | Part | Role |
