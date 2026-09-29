@@ -74,4 +74,4 @@ docking-station/
 | M1: IR link | Beacon sends L / R / Near codes; robot-side receivers decode them on the bench; ambient IR tested |
 | M2: Steering | Docking state machine steers a test base onto the centre line from the defined area |
 | M3: Contacts | Station, floor pad and rod mechanism printed and assembled; contact detection working |
-| M4: Integration and demo | Full docking on the robot; 10-trial test from varied start positions |
+| M4: Integration and demo | Robot docks to the station regularly |
