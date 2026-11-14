@@ -1,7 +1,5 @@
 # Technical Decisions
 
-Group 1 · Santeri Karjalainen, Zohaib Salman
-
 The docking station sends infrared signals that tell the robot whether it is to the left of, to the right of, or on the line leading straight into the dock. The robot reads these signals and steers itself in.
 
 ## 1. How the station sends its signals
